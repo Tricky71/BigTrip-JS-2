@@ -35,7 +35,7 @@ const tripDaysList = tripEventsWrapper.querySelector('.trip-days');
 render(tripDaysList, createSiteTripDay(), 'beforeend');
 
 const tripEventsList = tripDaysList.querySelector('.trip-events__list');
-
+console.log(tripEventsList);
 for (let i = 0; i < EVENT_COUNT; i++) {
   render(tripEventsList, createSiteTripEvent(), 'beforeend');
 }

@@ -1,4 +1,4 @@
-const createSiteTripEvent = () => {
+export const createSiteTripEvent = () => {
   return (
     `<li class="trip-events__item">
       <div class="event">
